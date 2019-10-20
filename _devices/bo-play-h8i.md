@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: device
 title:  "B&O PLAY H8i"
 date:   2015-02-12 13:46:40
-categories: jekyll update
+categories: device
 ---
 Pending score
 Price: $179.95 new on Amazon (when ordered on Oct 2019)

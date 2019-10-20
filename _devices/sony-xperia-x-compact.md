@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: device
 title:  "Sony Xperia X Compact"
 date:   2015-02-12 13:46:40
-categories: jekyll update
+categories: device
 ---
 4/5 overall score
 Price: $150 used from Ebay (when ordered on Jul 2019)

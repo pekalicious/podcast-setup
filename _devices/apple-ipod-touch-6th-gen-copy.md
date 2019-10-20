@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: device
 title:  "Apple iPod Touch (6th Generation)"
 date:   2015-02-12 13:46:40
-categories: jekyll update
+categories: device
 ---
 Pending score
 Price: $130.00 renewed on Amazon (when ordered on Oct 2019)

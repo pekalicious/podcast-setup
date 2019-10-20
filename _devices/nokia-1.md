@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: device
 title:  "Nokia 1"
 date:   2015-02-12 13:46:40
-categories: jekyll update
+categories: device
 ---
 1/5 overall score
 Price: $60 new from Amazon (when ordered on Jul 2019)

@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: device
 title:  "Audio-Technica ATH-M50xBT"
 date:   2015-02-12 13:46:40
-categories: jekyll update
+categories: device
 ---
 2/5 overall score
 Price: $159.00 new from Amazon (when ordered on Sep 2019)
