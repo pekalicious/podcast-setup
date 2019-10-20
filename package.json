@@ -1,0 +1,26 @@
+{
+  "name": "podcast-setup",
+  "version": "1.0.0",
+  "description": "Fresh Jekyll install from running \"jekyll new ...\"",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.16.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pekalicious/podcast-setup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pekalicious/podcast-setup/issues"
+  },
+  "homepage": "https://github.com/pekalicious/podcast-setup#readme"
+}
