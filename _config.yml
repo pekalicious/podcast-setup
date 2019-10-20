@@ -21,5 +21,14 @@ exclude: []
 
 collections:
   devices:
+    title: Devices
     output: true
     permalink: /devices/:title
+  headphones:
+    title: Headphones
+    output: true
+    permalink: /headphones/:title
+  apps:
+    title: Apps
+    output: true
+    permalink: /apps/:title

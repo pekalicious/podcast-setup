@@ -1,0 +1,26 @@
+---
+layout: device
+title:  "Cast Box"
+date:   2015-02-12 13:46:40
+categories: app
+score: "3"
+price: "Free"
+link: https://pekalicious.com/
+---
+Likes
+- Audio cues for when switching to data
+- Can sort episodes
+
+Dislikes
+- Doesn't automatically stop when Bluetooth disconnects
+- Hard to find Playing Now screen
+- Can't find episode list from Playing Now screen
+- Don't like that the list includes separators with dates
+- No Play button in the episode list
+- Widget not correctly updating the playing state
+- Lock screen confusing. Volume slider looks like timeline.
+- Volume slider value is more legible than actual timeline
+- Sometimes later seasons don't load as you scroll and you have to select from seasons drop down list
+
+Interesting
+- Has paid subscription shows
