@@ -8,7 +8,7 @@ price: "$179.95 (new)"
 product-link: "https://amzn.to/2ITuwJ1"
 product-location: "Amazon"
 ---
-So far… meh.
+So far… OK.
 
 At first glance, I thought this device would easily slip off. Even though I've used on ear headphones before (my beloved SOL REPUBLIC Tracks), I still wasn't confident these would hold up. But, to my surprise, they are very steady. Even shaking my head doesn't move them much.
 
