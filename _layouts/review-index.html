@@ -5,17 +5,18 @@ layout: default
   {% assign posts = site.documents | where: "collection", page.collection | sort: 'date' | reverse %}
   {% assign latest = posts.first %}
   <div class="col">
-    <div class="jumbotron">
+    <div class="jumbotron pt-3">
       <p class="mt-0">Latest review</p>
+      <img src="/assets/thumbs/{{ latest.id }}.jpg" class="mr-3 mb-3" height="200" style="float: left;" alt="{{ latest.title }}">
       <h2>{{ latest.title }}</h2>
-      <p class="lead">{{ latest.excerpt }}</p>
-      <a class="btn btn-secondary btn-lg" href="{{ latest.url }}" role="button">Read full review</a>
+      <p>{{ latest.excerpt }}</p>
+      <p><a class="btn btn-outline-dark btn-lg stretched-link" href="{{ latest.url }}" role="button">Read full review</a></p>
     </div>
   </div>
   <div class="col-lg-4 col-sm-12 p-2">
     <div class="sidebar">
       {{ content }}
-      <a href="/{{ page.collection }}/about" class="btn btn-primary">Read More</a>
+      <a href="/{{ page.collection }}/about">Read More</a>
     </div>
   </div>
 </div>

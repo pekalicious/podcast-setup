@@ -3,10 +3,12 @@ layout: review
 title:  "Cast Box"
 date:   2019-04-12 13:46:40
 categories: app post
-score: "3"
+score: "Pending"
 price: "Free"
-link: https://pekalicious.com/
+product-link: https://castbox.fm
 ---
+Still reviewing...
+
 Likes
 - Audio cues for when switching to data
 - Can sort episodes

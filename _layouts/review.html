@@ -3,13 +3,22 @@ layout: default
 ---
 <div class="post">
   <header class="post-header">
+    <a href="/{{ page.collection }}">Back to all reviews</a>
     <h1 class="post-title">{{ page.title }}</h1>
+    <div class="cover mb-4" style="background-image: url('/assets/thumbs/{{ page.id }}.jpg');">
+      <!-- Include your post title, byline, date, and other info inside the header here. -->
+    </div>
   </header>
 
   <article class="post-content">
-    <p>{{ page.score }}/5 overall score<br/>
-      Price: <a href="{{ page.link }}">{{ page.price }}</a></p>
+    <div class="card border-dark mb-3 ml-3" style="max-width: 18rem; float: right;">
+      <div class="card-header bg-dark text-white h3">Summary</div>
+      <img src="/assets/thumbs/{{ page.id }}.jpg" class="card-img-top p-3" alt="{{ post.title }}">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">Score: {{ page.score }}/5</li>
+        <li class="list-group-item">Price: <a href="{{ page.product-link }}"></a>{{ page.price }}</a></li>
+      </ul>
+    </div>
     {{ content }}
   </article>
-
 </div>
