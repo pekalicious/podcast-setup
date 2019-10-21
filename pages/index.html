@@ -4,22 +4,33 @@ permalink: /
 ---
 
 <div class="home my-4">
-  <div class="row">
+  <div class="row mb-5">
     {% assign posts = site.documents | where: "categories", "post" | sort: 'date' | reverse %}
+    {% assign current_setup = site.documents | where: "categories", "current" %}
     {% assign latest = posts.first %}
     <div class="col">
-      <div class="jumbotron">
-        <h1 class="display-4 mt-0">Latest review</h1>
-        <h2>{{ latest.title }}</h2>
-        <p class="lead">{{ latest.excerpt }}</p>
-        <a class="btn btn-secondary btn-lg" href="{{ latest.url }}" role="button">Read full review</a>
+      <div>
+        <h1 class="mt-0">Current Setup</h1>
+        <ul class="list-unstyled">
+          {% for current in current_setup %}
+          <li class="media" style="position: relative;">
+            <div class="cover-thumb mr-2 my-2" style="background-image: url('/assets/thumbs/{{ current.id }}.jpg');">
+              <!-- Include your post title, byline, date, and other info inside the header here. -->
+            </div>
+            <div class="media-body pt-2">
+              <h5 class="mt-0 mb-1">{{ current.title }}</h5>
+              <a href="{{ current.url }}" class="stretched-link">Read review</a>
+            </div>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
     <div class="col-lg-4 col-sm-12">
-      <h4>Latest Reviews</h4>
-      <div class="list-group">
-        {% for post in posts limit:4 offset:1 %}
-          <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="list-group-item list-group-item-action">
+      <div class="list-group list-group-flush">
+        <h4 class="list-group-item">Latest Reviews</h4>
+        {% for post in posts limit:4 %}
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="list-group-item list-group-item-action">
           <div class="d-flex w-100 justify-content-between">
             <p class="mb-1">{{ post.title }}</p>
             <small>{{ post.date | timeago }}</small>

@@ -2,7 +2,7 @@
 layout: review
 title:  "Apple iPod Touch (6th Generation)"
 date:   2019-10-20 13:46:40
-categories: device post
+categories: device post current
 score: "Pending"
 price: "$130.00 renewed on Amazon (when ordered on Oct 2019)"
 ---

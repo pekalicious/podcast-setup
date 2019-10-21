@@ -43,10 +43,10 @@ $on-laptop:        800px;
     }
 }
 
-p, a, h1, h2, h3, h4, h5, h6 {
+p, a, h1, h2, h3, h4, h5, h6, li {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
-p {
+p, li {
   font-size: 16pt;
 }
 h1 {
@@ -57,4 +57,10 @@ h1 {
   background-size: cover;
   background-position: center;
   height: 400px;
+}
+.cover-thumb {
+  background-size: cover;
+  background-position: center;
+  height: 64px;
+  width: 64px;
 }

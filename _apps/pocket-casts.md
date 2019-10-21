@@ -2,7 +2,7 @@
 layout: review
 title:  "Pocket Casts"
 date:   2019-04-11 13:46:40
-categories: app post
+categories: app post current
 score: "5"
 price: "Free"
 link: https://pekalicious.com/
