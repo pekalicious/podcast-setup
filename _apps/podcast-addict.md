@@ -3,7 +3,7 @@ layout: review
 title:  "Podcast Addict"
 date:   2019-04-10 13:46:40
 categories: app post
-score: "5"
+score: "1"
 price: "Free"
 product-link: "https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict"
 product-location: Google Play

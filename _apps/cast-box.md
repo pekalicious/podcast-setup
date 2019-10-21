@@ -2,7 +2,7 @@
 layout: review
 title:  "Cast Box"
 date:   2019-04-12 13:46:40
-categories: app post
+categories: app
 score: "Pending"
 price: "Free"
 product-link: https://castbox.fm
