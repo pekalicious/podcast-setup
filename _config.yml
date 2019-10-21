@@ -10,6 +10,9 @@ github_username:  pekalicious
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-timeago
+
 # Make sure Jekyll loads sass the "correct" way
 sass:
   load_paths:

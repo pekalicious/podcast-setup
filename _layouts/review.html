@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+  </header>
+
+  <article class="post-content">
+    <p>{{ page.score }}/5 overall score<br/>
+      Price: <a href="{{ page.link }}">{{ page.price }}</a></p>
+    {{ content }}
+  </article>
+
+</div>
