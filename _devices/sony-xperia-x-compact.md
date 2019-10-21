@@ -4,7 +4,9 @@ title:  "Sony Xperia X Compact"
 date:   2019-09-18 13:46:40
 categories: device post
 score: "4"
-price: "$150 used from Ebay (when ordered on Jul 2019)"
+price: "$150 (used)"
+product-link: "https://ebay.com"
+product-location: Ebay
 ---
 This was the closest device to perfection, but alas, there's one small issue that is enough to switch to another device.
 

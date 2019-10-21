@@ -5,7 +5,8 @@ date:   2019-04-11 13:46:40
 categories: app post current
 score: "5"
 price: "Free"
-link: https://pekalicious.com/
+product-link: https://pocketcasts.com/
+product-location: Website
 ---
 I've been a fan of Pocket Casts since 2011. And as of Oct 2019, I'm a happy Pocket Casts Plus subscriber. Seriously, I can't praise this app enough. Naturally a lot of the features I list in my app requirements are coming from features I've been used to in Pocket Casts. 
 

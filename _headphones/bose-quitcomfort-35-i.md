@@ -4,7 +4,9 @@ title:  "Bose QuietComfort 35 I"
 date:   2019-03-18 13:46:40
 categories: device post
 score: "4"
-price: "$200 used from Letgo (when ordered on Jul 2018)"
+price: "$200 (used)"
+product-link: "https://letgo.com"
+product-location: "Letgo"
 ---
 So far, the best headphones I've tried.
 

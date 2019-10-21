@@ -4,8 +4,9 @@ title:  "Apple iPod Touch (5th Generation)"
 date:   2019-10-18 13:46:40
 categories: device post
 score: "1"
-price: "$95.00 renewed from Amazon (when ordered on Oct 2019)"
-link: https://pekalicious.com/
+price: "$95.00 (renewed)"
+product-link: "https://amzn.to/33BzkL5"
+product-location: Amazon
 ---
 I realized I need iOS 11 only after receiving this.
 

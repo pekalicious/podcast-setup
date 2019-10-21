@@ -5,7 +5,8 @@ date:   2019-04-10 13:46:40
 categories: app post
 score: "5"
 price: "Free"
-link: https://pekalicious.com/
+product-link: "https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict"
+product-location: Google Play
 ---
 This app is aptly named. Podcast Addict is a podcast app for podcast power users with all the amazing features you'll never find anywhere else and a UI as terrible as, unfortunately, we've come to expect when we hear the words "power user".
 

@@ -4,7 +4,9 @@ title:  "Nokia 1"
 date:   2019-08-18 13:46:40
 categories: device post
 score: "1"
-price: "$60 new from Amazon (when ordered on Jul 2019)"
+price: "$60 (new)"
+product-link: "https://amzn.to/2IWzJ2N"
+product-location: Amazon
 ---
 This was the quickest NOPE out of all the devices I tried.
 

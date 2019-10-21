@@ -4,7 +4,9 @@ title:  "Audio-Technica ATH-M50xBT"
 date:   2019-07-18 13:46:40
 categories: device post
 score: "2"
-price: "$159.00 new from Amazon (when ordered on Sep 2019)"
+price: "$159.00 (new)"
+product-link: "https://amzn.to/2IXbeCV"
+product-location: Amazon
 ---
 This was probably the biggest disappointment so far. From the poor clamping to the horrific button design, I stopped using these headphones after about 3 weeks. 
 

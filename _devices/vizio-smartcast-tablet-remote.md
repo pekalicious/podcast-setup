@@ -4,7 +4,9 @@ title:  "Vizio SmartCast Tablet Remote"
 date:   2019-06-18 13:46:40
 categories: device post
 score: "2"
-price: "$69.99 renewed on Amazon (when ordered on Jul 2019)"
+price: "$69.99 (renewed)"
+product-link: "https://amzn.to/2pqMhsr"
+product-location: "Amazon"
 ---
 This was the device that made me realize I prefer small screens.
 

@@ -6,6 +6,7 @@ categories: app post
 score: "Pending"
 price: "Free"
 product-link: https://castbox.fm
+product-location: Website
 ---
 Still reviewing...
 

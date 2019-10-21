@@ -4,7 +4,7 @@ title:  "Apple iPod Touch (6th Generation)"
 date:   2019-10-20 13:46:40
 categories: device post current
 score: "Pending"
-price: "$130.00 renewed on Amazon (when ordered on Oct 2019)"
+price: "$130.00 (renewed)"
 ---
 Compared to the 5th generation, this is definitely heavier and feels better in the hands. But it still has the, very slippery, metal back.
 
