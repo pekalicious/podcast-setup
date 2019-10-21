@@ -1,8 +1,8 @@
 ---
-layout: device
+layout: review
 title:  "Nokia 1"
-date:   2015-02-12 13:46:40
-categories: device
+date:   2019-08-18 13:46:40
+categories: device post
 ---
 1/5 overall score
 Price: $60 new from Amazon (when ordered on Jul 2019)

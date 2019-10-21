@@ -1,8 +1,8 @@
 ---
-layout: device
+layout: review
 title:  "Bose QuietComfort 35 I"
-date:   2015-02-12 13:46:40
-categories: device
+date:   2019-03-18 13:46:40
+categories: device post
 ---
 4/5 overall score
 Price: $200 used from Letgo (when ordered on Jul 2018)

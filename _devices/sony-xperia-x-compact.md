@@ -1,8 +1,8 @@
 ---
-layout: device
+layout: review
 title:  "Sony Xperia X Compact"
-date:   2015-02-12 13:46:40
-categories: device
+date:   2019-09-18 13:46:40
+categories: device post
 ---
 4/5 overall score
 Price: $150 used from Ebay (when ordered on Jul 2019)

@@ -1,8 +1,8 @@
 ---
-layout: device
+layout: review
 title:  "Vizio SmartCast Tablet Remote (XR6P10)"
-date:   2015-02-12 13:46:40
-categories: device
+date:   2019-06-18 13:46:40
+categories: device post
 ---
 2/5 overall score
 Price: $69.99 renewed on Amazon (when ordered on Jul 2019)

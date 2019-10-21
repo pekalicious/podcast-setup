@@ -1,8 +1,8 @@
 ---
-layout: device
+layout: review
 title:  "Podcast Addict"
-date:   2015-02-12 13:46:40
-categories: app
+date:   2019-04-10 13:46:40
+categories: app post
 score: "5"
 price: "Free"
 link: https://pekalicious.com/

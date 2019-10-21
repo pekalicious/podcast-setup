@@ -1,8 +1,8 @@
 ---
-layout: device
+layout: review
 title:  "Cast Box"
-date:   2015-02-12 13:46:40
-categories: app
+date:   2019-04-12 13:46:40
+categories: app post
 score: "3"
 price: "Free"
 link: https://pekalicious.com/
