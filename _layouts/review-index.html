@@ -22,15 +22,13 @@ layout: default
 <h2>All reviews</h2>
 <div class="card-columns">
   {% for post in posts %}
-  <a href="{{ post.url }}">
   <div class="card">
     <img src="/assets/thumbs/{{ post.id }}.jpg" class="card-img-top" alt="{{ post.title }}">
     <div class="card-body">
-      <h5 class="card-title">{{ post.title }}</h5>
+      <a href="{{ post.url }}" class="stretched-link"><h5 class="card-title">{{ post.title }}</h5></a>
       <p class="card-text">{{ post.excerpt }}</p>
       <p class="card-text"><small class="text-muted">{{ post.date | timeago }}</small></p>
     </div>
   </div>
-  </a>
   {% endfor %}
 </div>
