@@ -1,23 +1,24 @@
 ---
 layout: default
+permalink: /
 ---
 
-<div class="home">
+<div class="home my-4">
   <div class="row">
     {% assign posts = site.documents | where: "categories", "post" | sort: 'date' | reverse %}
     {% assign latest = posts.first %}
     <div class="col">
-      <div class="jumbotron my-4">
+      <div class="jumbotron">
         <h1 class="display-4 mt-0">Latest review</h1>
         <h2>{{ latest.title }}</h2>
-        <p class="lead">A site dedicated to destraction-free podcast listening.</p>
+        <p class="lead">{{ latest.excerpt }}</p>
         <a class="btn btn-secondary btn-lg" href="{{ latest.url }}" role="button">Read full review</a>
       </div>
     </div>
-    <div class="col-lg-4 col-sm-12 p-2">
+    <div class="col-lg-4 col-sm-12">
       <h4>Latest Reviews</h4>
       <div class="list-group">
-        {% for post in posts limit:3 offset:1 %}
+        {% for post in posts limit:4 offset:1 %}
           <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="list-group-item list-group-item-action">
           <div class="d-flex w-100 justify-content-between">
             <p class="mb-1">{{ post.title }}</p>

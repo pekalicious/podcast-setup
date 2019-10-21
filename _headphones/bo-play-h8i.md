@@ -3,10 +3,9 @@ layout: review
 title:  "B&O PLAY H8i"
 date:   2019-10-20 13:46:40
 categories: device post
+score: "Pending"
+price: "$179.95 new on Amazon (when ordered on Oct 2019)"
 ---
-Pending score
-Price: $179.95 new on Amazon (when ordered on Oct 2019)
-
 So far… meh.
 
 At first glance, I thought this device would easily slip off. Even though I've used on ear headphones before (my beloved SOL REPUBLIC Tracks), I still wasn't confident these would hold up. But, to my surprise, they are very steady. Even shaking my head doesn't move them much.

@@ -1,3 +1,3 @@
-# jekyll-base
+# podcast-setup
 
-Fresh Jekyll install from running "jekyll new ..."
+A site dedicated to destraction-free podcast listening.

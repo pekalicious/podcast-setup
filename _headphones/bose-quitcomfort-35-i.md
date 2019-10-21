@@ -3,9 +3,10 @@ layout: review
 title:  "Bose QuietComfort 35 I"
 date:   2019-03-18 13:46:40
 categories: device post
+score: "4"
+price: "$200 used from Letgo (when ordered on Jul 2018)"
 ---
-4/5 overall score
-Price: $200 used from Letgo (when ordered on Jul 2018)
+So far, the best headphones I've tried.
 
 I don't think I need to explain why this set of headphones are great. There's a reason why they are either number 1 or 2 in every list.
 I've had my fair share of headphones and none of them come close to how comfortable these are to wear, as well as how perfectly they fit, how they handle with one hand, and how light they are. And the built quality is unmatched, even for headphones of it's price range.

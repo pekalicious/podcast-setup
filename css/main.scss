@@ -43,14 +43,13 @@ $on-laptop:        800px;
     }
 }
 
-p, a {
+p, a, h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 p {
   font-size: 16pt;
 }
-h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+h1 {
   margin-bottom: 22px;
   margin-top: 36px;
 }

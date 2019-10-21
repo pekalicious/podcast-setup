@@ -3,10 +3,9 @@ layout: review
 title:  "Sony Xperia X Compact"
 date:   2019-09-18 13:46:40
 categories: device post
+score: "4"
+price: "$150 used from Ebay (when ordered on Jul 2019)"
 ---
-4/5 overall score
-Price: $150 used from Ebay (when ordered on Jul 2019)
-
 This was the closest device to perfection, but alas, there's one small issue that is enough to switch to another device.
 
 First, the good parts. It's a 4'' Android 7 device that upgrades to 8. It's very cheap for its hardware. It has finger print reader in a very convenient location (right side of the device) and comes in a lot of fun colors (I bought the Mist blue).

@@ -1,12 +1,11 @@
 ---
 layout: review
-title:  "Vizio SmartCast Tablet Remote (XR6P10)"
+title:  "Vizio SmartCast Tablet Remote"
 date:   2019-06-18 13:46:40
 categories: device post
+score: "2"
+price: "$69.99 renewed on Amazon (when ordered on Jul 2019)"
 ---
-2/5 overall score
-Price: $69.99 renewed on Amazon (when ordered on Jul 2019)
-
 This was the device that made me realize I prefer small screens.
 
 On the surface, this looks like the perfect fit. An Android 7 device (not a phone), with plenty of storage, Bluetooth and 3.5mm jack, awesome dock charger, large screen and very light. And as a generic Android device, it's amazing. I still have it next to my monitor for various use cases. I still don't know why this isn't more popular, or why other manufacturers don't produce similar devices. I have 2! I accidentally ordered the 8GB which doesn't have enough storage for more than a single app, so I ordered the 16GB and kept them both.

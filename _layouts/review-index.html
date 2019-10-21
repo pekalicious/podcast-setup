@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<div class="row my-4">
+  {% assign posts = site.documents | where: "collection", page.collection | sort: 'date' | reverse %}
+  {% assign latest = posts.first %}
+  <div class="col">
+    <div class="jumbotron">
+      <p class="mt-0">Latest review</p>
+      <h2>{{ latest.title }}</h2>
+      <p class="lead">{{ latest.excerpt }}</p>
+      <a class="btn btn-secondary btn-lg" href="{{ latest.url }}" role="button">Read full review</a>
+    </div>
+  </div>
+  <div class="col-lg-4 col-sm-12 p-2">
+    <div class="sidebar">
+      {{ content }}
+      <a href="/{{ page.collection }}/about" class="btn btn-primary">Read More</a>
+    </div>
+  </div>
+</div>
+<h2>All reviews</h2>
+<div class="card-columns">
+  {% for post in posts %}
+  <a href="{{ post.url }}">
+  <div class="card">
+    <img src="/assets/thumbs/{{ post.id }}.jpg" class="card-img-top" alt="{{ post.title }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ post.title }}</h5>
+      <p class="card-text">{{ post.excerpt }}</p>
+      <p class="card-text"><small class="text-muted">{{ post.date | timeago }}</small></p>
+    </div>
+  </div>
+  </a>
+  {% endfor %}
+</div>
