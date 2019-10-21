@@ -12,13 +12,18 @@ layout: default
 
   <article class="post-content">
     <div class="card border-dark mb-3 ml-3" style="max-width: 18rem; float: right;">
-      <div class="card-header bg-dark text-white h3">Summary</div>
+      <div class="card-header bg-dark text-white h3">Summary*</div>
       <img src="/assets/thumbs/{{ page.id }}.jpg" class="card-img-top p-3" alt="{{ post.title }}">
       <ul class="list-group list-group-flush">
-        <li class="list-group-item">Score: {{ page.score }}/5</li>
-        <li class="list-group-item">Price: <a href="{{ page.product-link }}"></a>{{ page.price }}</a></li>
+        <li class="list-group-item">Score: {{ page.score }} {% if page.score != "Pending" %}/5{% endif %}</li>
+        <li class="list-group-item">Price: {{ page.price }}</a></li>
+        <li class="list-group-item"><a href="{{ page.product-link }}" target="_blank">{{ page.product-location }}<i class="fas fa-external-link-alt fa-xs pl-1 mb-1"></i></a></li>
       </ul>
     </div>
     {{ content }}
   </article>
 </div>
+<span class="clear"></span>
+<footer class="container">
+  * Product links may be affiliated. Prices are based on time of review.
+</footer>
