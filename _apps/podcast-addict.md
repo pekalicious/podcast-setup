@@ -11,6 +11,11 @@ This app is aptly named. Podcast Addict is a podcast app for podcast power users
 
 Compare these two screenshots of the same podcast series, one from Podcast Addict (left) and one from Pocket Casts (right) , and you'll immediately understand what I'm talking about.
 
+<div class="text-center my-4">
+  <img width="340" src="/assets/img/podcastaddict-podcast.jpg">
+  <img width="340" src="/assets/img/pocketcasts-podcast.jpg">
+</div>
+
 Notice how both apps have very similar information displayed, but one of them feels very convoluted and intimidating.
 
 And because of the sheer number of features, simple actions like searching for new podcasts, take multiple steps where in other apps it takes at most two. 
