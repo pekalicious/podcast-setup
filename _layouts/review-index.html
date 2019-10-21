@@ -6,7 +6,7 @@ layout: default
   {% assign pendings = site.documents | where_exp: "post", "post.collection == page.collection" | where_exp: "post", "post.score == 'Pending'" | sort: 'date' | reverse %}
   {% assign latest = posts.first %}
   <div class="col">
-    <div class="jumbotron p-4">
+    <div class="jumbotron p-4" style="position: relative;">
       <p class="mt-0">Latest review</p>
       <div class="cover-latest mr-4 my-0" style="background-image: url('/assets/thumbs/{{ latest.id }}.jpg'); float: left;">
         <!-- Include your post title, byline, date, and other info inside the header here. -->
