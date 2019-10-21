@@ -49,10 +49,6 @@ p, a, h1, h2, h3, h4, h5, h6, li {
 p, li {
   font-size: 16pt;
 }
-h1 {
-  margin-bottom: 22px;
-  margin-top: 36px;
-}
 .cover {
   background-size: cover;
   background-position: center;
@@ -63,5 +59,11 @@ h1 {
   background-position: center;
   height: 64px;
   width: 64px;
+}
+.cover-latest {
+  background-size: cover;
+  background-position: center;
+  height: 164px;
+  width: 164px;
 }
 span.clear { clear: both; display: block; }
