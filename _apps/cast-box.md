@@ -8,7 +8,7 @@ price: "Free"
 product-link: https://castbox.fm
 product-location: Website
 ---
-Still reviewing...
+Looks promising...
 
 Likes
 - Audio cues for when switching to data

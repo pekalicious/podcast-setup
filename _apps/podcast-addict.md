@@ -8,6 +8,8 @@ price: "Free"
 product-link: "https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict"
 product-location: Google Play
 ---
+Terrible UI
+
 This app is aptly named. Podcast Addict is a podcast app for podcast power users with all the amazing features you'll never find anywhere else and a UI as terrible as, unfortunately, we've come to expect when we hear the words "power user".
 
 Compare these two screenshots of the same podcast series, one from Podcast Addict (left) and one from Pocket Casts (right) , and you'll immediately understand what I'm talking about.
