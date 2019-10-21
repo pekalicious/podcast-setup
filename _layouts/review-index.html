@@ -2,7 +2,8 @@
 layout: default
 ---
 <div class="row my-4">
-  {% assign posts = site.documents | where: "collection", page.collection | sort: 'date' | reverse %}
+  {% assign posts = site.documents | where_exp: "post", "post.collection == page.collection" | where_exp: "post", "post.categories contains 'post'" | sort: 'date' | reverse %}
+  {% assign pendings = site.documents | where_exp: "post", "post.collection == page.collection" | where_exp: "post", "post.score == 'Pending'" | sort: 'date' | reverse %}
   {% assign latest = posts.first %}
   <div class="col">
     <div class="jumbotron p-4">
@@ -14,24 +15,33 @@ layout: default
       <p>{{ latest.excerpt }}</p>
       <p><a class="btn btn-outline-dark btn-lg stretched-link" href="{{ latest.url }}" role="button">Read full review</a></p>
     </div>
+    <h2>All reviews</h2>
+    <div class="card-columns">
+      {% for post in posts %}
+      <div class="card">
+        <img src="/assets/thumbs/{{ post.id }}.jpg" class="card-img-top" alt="{{ post.title }}">
+        <div class="card-body">
+          <a href="{{ post.url }}" class="stretched-link"><h5 class="card-title">{{ post.title }}</h5></a>
+          <small class="text-lead">{{ post.excerpt }}</small>
+          <p class="card-text"></p><small class="text-muted">{{ post.date | timeago }}</small></p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
   </div>
-  <div class="col-lg-4 col-sm-12 p-2">
+  <div class="col-lg-3 col-sm-12 p-2">
     <div class="sidebar">
-      {{ content }}
-      <a href="/{{ page.collection }}/about">Read More</a>
+      <div class="mb-4">
+        {{ content }}
+        <a href="/{{ page.collection }}/about">Read More</a>
+      </div>
+      <div class="my-2"></div>
+      <ul class="list-group">
+        <li class="list-group-item list-group-item-secondary">Pending reviews</li>
+        {% for pending in pendings %}
+          <li class="list-group-item"><a href="{{pending.url}}" class="stretched-link">{{ pending.title }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
-</div>
-<h2>All reviews</h2>
-<div class="card-columns">
-  {% for post in posts %}
-  <div class="card">
-    <img src="/assets/thumbs/{{ post.id }}.jpg" class="card-img-top" alt="{{ post.title }}">
-    <div class="card-body">
-      <a href="{{ post.url }}" class="stretched-link"><h5 class="card-title">{{ post.title }}</h5></a>
-      <small class="text-lead">{{ post.excerpt }}</small>
-      <p class="card-text"></p><small class="text-muted">{{ post.date | timeago }}</small></p>
-    </div>
-  </div>
-  {% endfor %}
 </div>
