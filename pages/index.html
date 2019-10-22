@@ -5,12 +5,44 @@ permalink: /
 
 <div class="home my-4">
   <div class="row mb-5">
-    {% assign posts = site.documents | where: "categories", "post" | sort: 'date' | reverse %}
-    {% assign current_setup = site.documents | where: "categories", "current" %}
-    {% assign latest = posts.first %}
     <div class="col">
-      <div>
-        <h1 class="mt-0">Current Setup</h1>
+      <div class="jumbotron">
+        <h1 class="display-4">Welcome</h1>
+        <p class="lead">This is a website dedicated to finding the best distraction-free podcast experience for you.</p>
+        <a class="btn btn-primary btn-lg" href="/about" role="button">Learn more</a>
+      </div>
+      {% assign posts = site.documents | where: "categories", "post" | sort: 'date' | reverse %}
+      {% assign current_setup = site.documents | where: "categories", "current" %}
+      {% assign latest = posts.first %}
+      <div class="row">
+        <div style="background-color: rgb(30, 172, 53); font-family: 'Merriweather'; font-size: 32px;" class="col-xs-12 col-md-4 text-center p-4 rounded-lg">
+          <p><i class="text-white card-img-top fas fa-mobile-alt fa-3x"></i></p>
+          <a href="devices/" class="stretched-link text-white">Devices</a>
+        </div>
+        <div style="background-color: rgb(196, 52, 88); font-family: 'Merriweather'; font-size: 32px;" class="col-xs-12 col-md-4 text-center p-4 rounded-lg">
+          <p><i class="text-white fas fa-headphones fa-3x"></i></p>
+          <a href="headphones/" class="stretched-link text-white">Headphones</a>
+        </div>
+        <div style="background-color: rgb(0, 197, 231); font-family: 'Merriweather'; font-size: 32px;" class="col-xs-12 col-md-4 text-center p-4 rounded-lg">
+          <p><i class="text-white fas fa-download fa-3x"></i></p>
+          <a href="apps/" class="stretched-link text-white">Apps</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="list-group list-group-flush">
+        <h4 class="list-group-item">Latest Reviews</h4>
+        {% for post in posts limit:4 %}
+        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="list-group-item list-group-item-action">
+          <div class="d-flex w-100 justify-content-between">
+            <p class="mb-1">{{ post.title }}</p>
+            <small>{{ post.date | timeago }}</small>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+      <div class="my-4 p-3">
+        <h4 class="mt-0">Current Setup</h4>
         <ul class="list-unstyled">
           {% for current in current_setup %}
           <li class="media" style="position: relative;">
@@ -25,33 +57,6 @@ permalink: /
           {% endfor %}
         </ul>
       </div>
-    </div>
-    <div class="col-lg-4 col-sm-12">
-      <div class="list-group list-group-flush">
-        <h4 class="list-group-item">Latest Reviews</h4>
-        {% for post in posts limit:4 %}
-        <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" class="list-group-item list-group-item-action">
-          <div class="d-flex w-100 justify-content-between">
-            <p class="mb-1">{{ post.title }}</p>
-            <small>{{ post.date | timeago }}</small>
-          </div>
-        </a>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div style="background-color: rgb(30, 172, 53); font-family: 'Merriweather'; font-size: 32px;" class="col-xs-12 col-md-4 text-center p-4 rounded-lg">
-      <p><i class="text-white card-img-top fas fa-mobile-alt fa-3x"></i></p>
-      <a href="devices/" class="stretched-link text-white">Devices</a>
-    </div>
-    <div style="background-color: rgb(196, 52, 88); font-family: 'Merriweather'; font-size: 32px;" class="col-xs-12 col-md-4 text-center p-4 rounded-lg">
-      <p><i class="text-white fas fa-headphones fa-3x"></i></p>
-      <a href="headphones/" class="stretched-link text-white">Headphones</a>
-    </div>
-    <div style="background-color: rgb(0, 197, 231); font-family: 'Merriweather'; font-size: 32px;" class="col-xs-12 col-md-4 text-center p-4 rounded-lg">
-      <p><i class="text-white fas fa-download fa-3x"></i></p>
-      <a href="apps/" class="stretched-link text-white">Apps</a>
     </div>
   </div>
 </div>
