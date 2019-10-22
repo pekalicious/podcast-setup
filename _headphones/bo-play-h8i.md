@@ -18,5 +18,11 @@ Then there's the dedicated Noise Cancelling toggle button. While I appreciate th
 
 This set has a proximity sensor and, in theory, can sense when you take off the headphones. It will then automatically stop whatever is playing, and resume when it senses you put them back. And when it works, it's amazing. Unfortunately, as many have mentioned it online, this feature does not work. Instead, it will very frequently and randomly send an A2DP pause signal while you are wearing them. And forget about using this feature on the desktop. It will constantly pause a YouTube video.
 
-- Ear cups come off extremely easy
-- Randomly stops videos on my desktop (not sure if it's the device though)
+Likes
+- 
+
+Dislikes
+- Ear cups come off easily
+- Proximity sensor not working
+- Annoying poping sounds (when playing/pausing, turning on/off, and sometime randomly when there's no sound)
+- They hurt when wearing for many hours
