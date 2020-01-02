@@ -2,7 +2,7 @@
 layout: review
 title:  "Bose QuietComfort 35 I"
 date:   2019-03-18 13:46:40
-categories: device post
+categories: device post current
 score: "4"
 price: "$200 (used)"
 product-link: "https://letgo.com"

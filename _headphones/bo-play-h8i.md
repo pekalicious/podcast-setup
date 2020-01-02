@@ -2,7 +2,7 @@
 layout: review
 title:  "B&O PLAY H8i"
 date:   2020-01-02 13:46:40
-categories: device post current
+categories: device post
 score: "3"
 price: "$179.95 (new)"
 product-link: "https://amzn.to/2ITuwJ1"
