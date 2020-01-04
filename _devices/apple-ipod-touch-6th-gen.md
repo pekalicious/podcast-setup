@@ -5,6 +5,8 @@ date:   2019-10-20 13:46:40
 categories: device current
 score: "Pending"
 price: "$130.00 (renewed)"
+product-link: "https://amzn.to/2QpxWrp"
+product-location: "Amazon"
 ---
 So far so good
 
@@ -20,3 +22,7 @@ Likes
 Dislikes
 
 - Short battery life. Barely 2 full days on a full charge
+
+## Specs
+
+| Bluetooth | 4.1 |

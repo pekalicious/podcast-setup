@@ -8,7 +8,7 @@ price: "$179.95 (new)"
 product-link: "https://amzn.to/2ITuwJ1"
 product-location: "Amazon"
 ---
-Overall I think I like the design and aesthetics of these headphones than the functionality. 
+Overall I like the design and aesthetics of these headphones more than the functionality. 
 
 Originally I felt that the grip was tight enough to hold them in place, but over time I realized that's not the case. And this turned out to be the biggest reason why I switched off. Even though there are many more issues, I was willing to put up with those if the grip didn't make me feel that I am restricting my head movement just to wear them.
 

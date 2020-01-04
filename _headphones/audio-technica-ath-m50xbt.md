@@ -8,7 +8,9 @@ price: "$159.00 (new)"
 product-link: "https://amzn.to/2IXbeCV"
 product-location: Amazon
 ---
-This was probably the biggest disappointment so far. From the poor clamping to the horrific button design, I stopped using these headphones after about 3 weeks. 
+This was probably the biggest disappointment so far. 
+
+From the poor clamping to the horrific button design, I stopped using these headphones after about 3 weeks. 
 
 I really tried to make them work, but it was extremely frustrating. They are big, and while not too heavy, they don't clamp well, so I will frequently have to catch them mid-air when ducking. Another problem with the fit is that I could not put them on with one hand. Because of their folding design, they will flip the other way around making it impossible to put them on. 
 
