@@ -1,7 +1,7 @@
 {
   "name": "podcast-setup",
   "version": "1.0.0",
-  "description": "Fresh Jekyll install from running \"jekyll new ...\"",
+  "description": "A website dedicated to finding the best setup for distraction-free podcast listening",
   "main": "index.js",
   "dependencies": {
     "bootstrap": "^4.3.1",
