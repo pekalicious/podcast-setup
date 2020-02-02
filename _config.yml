@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://podcast-setup.netlify.com/" # the base hostname & protocol for your site
 twitter_username: pekalicious
 github_username:  pekalicious
+google_analytics: UA-6605771-10
 
 # Build settings
 markdown: kramdown
