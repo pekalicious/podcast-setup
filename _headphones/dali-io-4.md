@@ -17,3 +17,8 @@ I turned the device on, heard the prompt that it's in BT pairing mode, proceeded
 I disconnected the iPod, but the lights on the headphones where all on as if still connected. I turned the switch to the off position and... nothing, the device lights were still showing that it was on and connected. Hold the switch for a few seconds, turned it on or off, connected with audio jack, connected it to change... Nothing I tried would make the device actually shut off. The lights were on as if this thing is still connected. I finally had to take a paper clip and stick it to the hard reset hole. 
 
 Needless to say, this was not a good start at all.
+
+Likes
+Dislikes
+- The shortest length is still too long. Doesn't clamp my head enough to stay put.
+- Twice so far the hadphones locked up and needed hard reset
