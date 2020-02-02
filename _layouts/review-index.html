@@ -23,7 +23,7 @@ layout: default
         <div class="card-body">
           <a href="{{ post.url }}" class="stretched-link"><h5 class="card-title">{{ post.title }}</h5></a>
           <small class="text-lead">{{ post.excerpt }}</small>
-          <p class="card-text"></p><small class="text-muted">{{ post.date | timeago }}</small></p>
+          <p class="card-text"></p><small class="text-muted">{{ post.date | date_to_string: "ordinal", "US" }}</small></p>
         </div>
       </div>
       {% endfor %}
